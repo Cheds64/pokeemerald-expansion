@@ -1000,34 +1000,9 @@ static const union AnimCmd sAnim_Tentacruel_1[] =
 #endif //P_FAMILY_TENTACOOL
 
 #if P_FAMILY_GEODUDE
-static const union AnimCmd sAnim_Geodude_1[] =
-{
-    ANIMCMD_FRAME(0, 15),
-    ANIMCMD_FRAME(1, 36),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_END,
-};
-
-static const union AnimCmd sAnim_Graveler_1[] =
-{
-    ANIMCMD_FRAME(0, 16),
-    ANIMCMD_FRAME(1, 16),
-    ANIMCMD_FRAME(0, 16),
-    ANIMCMD_FRAME(1, 16),
-    ANIMCMD_FRAME(0, 16),
-    ANIMCMD_END,
-};
-
-static const union AnimCmd sAnim_Golem_1[] =
-{
-    ANIMCMD_FRAME(0, 8),
-    ANIMCMD_FRAME(1, 31),
-    ANIMCMD_FRAME(0, 1),
-    ANIMCMD_FRAME(0, 2),
-    ANIMCMD_FRAME(0, 8),
-    ANIMCMD_END,
-};
-
+PLACEHOLDER_ANIM_SINGLE_FRAME(Geodude);
+PLACEHOLDER_ANIM_SINGLE_FRAME(Graveler);
+PLACEHOLDER_ANIM_SINGLE_FRAME(Golem);
 #if P_ALOLAN_FORMS
 PLACEHOLDER_ANIM_SINGLE_FRAME(GeodudeAlolan);
 PLACEHOLDER_ANIM_SINGLE_FRAME(GravelerAlolan);

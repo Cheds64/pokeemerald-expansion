@@ -1168,7 +1168,7 @@ const u32 gMonFrontPic_Perrserker[] = INCBIN_U32("graphics/pokemon/perrserker/fr
 #endif //P_FAMILY_TENTACOOL
 
 #if P_FAMILY_GEODUDE
-    const u32 gMonFrontPic_Geodude[] = INCBIN_U32("graphics/pokemon/geodude/anim_front.4bpp.lz");
+    const u32 gMonFrontPic_Geodude[] = INCBIN_U32("graphics/pokemon/geodude/front.4bpp.lz");
     const u32 gMonPalette_Geodude[] = INCBIN_U32("graphics/pokemon/geodude/normal.gbapal.lz");
     const u32 gMonBackPic_Geodude[] = INCBIN_U32("graphics/pokemon/geodude/back.4bpp.lz");
     const u32 gMonShinyPalette_Geodude[] = INCBIN_U32("graphics/pokemon/geodude/shiny.gbapal.lz");
@@ -1177,7 +1177,7 @@ const u32 gMonFrontPic_Perrserker[] = INCBIN_U32("graphics/pokemon/perrserker/fr
     const u8 gMonFootprint_Geodude[] = INCBIN_U8("graphics/pokemon/geodude/footprint.1bpp");
 #endif //P_FOOTPRINTS
 
-    const u32 gMonFrontPic_Graveler[] = INCBIN_U32("graphics/pokemon/graveler/anim_front.4bpp.lz");
+    const u32 gMonFrontPic_Graveler[] = INCBIN_U32("graphics/pokemon/graveler/front.4bpp.lz");
     const u32 gMonPalette_Graveler[] = INCBIN_U32("graphics/pokemon/graveler/normal.gbapal.lz");
     const u32 gMonBackPic_Graveler[] = INCBIN_U32("graphics/pokemon/graveler/back.4bpp.lz");
     const u32 gMonShinyPalette_Graveler[] = INCBIN_U32("graphics/pokemon/graveler/shiny.gbapal.lz");
@@ -1186,7 +1186,7 @@ const u32 gMonFrontPic_Perrserker[] = INCBIN_U32("graphics/pokemon/perrserker/fr
     const u8 gMonFootprint_Graveler[] = INCBIN_U8("graphics/pokemon/graveler/footprint.1bpp");
 #endif //P_FOOTPRINTS
 
-    const u32 gMonFrontPic_Golem[] = INCBIN_U32("graphics/pokemon/golem/anim_front.4bpp.lz");
+    const u32 gMonFrontPic_Golem[] = INCBIN_U32("graphics/pokemon/golem/front.4bpp.lz");
     const u32 gMonPalette_Golem[] = INCBIN_U32("graphics/pokemon/golem/normal.gbapal.lz");
     const u32 gMonBackPic_Golem[] = INCBIN_U32("graphics/pokemon/golem/back.4bpp.lz");
     const u32 gMonShinyPalette_Golem[] = INCBIN_U32("graphics/pokemon/golem/shiny.gbapal.lz");

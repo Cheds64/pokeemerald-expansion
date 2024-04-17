@@ -582,15 +582,15 @@ const u16 gEggMoves[] = {
 
 #if P_FAMILY_GEODUDE
     egg_moves(GEODUDE,
-        MOVE_MEGA_PUNCH,
-        MOVE_BLOCK,
-        MOVE_HAMMER_ARM,
-        MOVE_FLAIL,
-        MOVE_CURSE,
-        MOVE_FOCUS_PUNCH,
-        MOVE_ROCK_CLIMB,
-        MOVE_ENDURE,
         MOVE_AUTOTOMIZE,
+        MOVE_BLOCK,
+        MOVE_COUNTER,
+        MOVE_CURSE,
+        MOVE_ENDURE,
+        MOVE_FLAIL,
+        MOVE_MAGNET_RISE,
+        MOVE_ROCK_CLIMB,
+        MOVE_SCREECH,
         MOVE_WIDE_GUARD),
 #if P_ALOLAN_FORMS
     egg_moves(GEODUDE_ALOLAN,
