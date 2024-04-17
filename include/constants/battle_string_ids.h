@@ -303,7 +303,7 @@
 #define STRINGID_ITEMALLOWSONLYYMOVE                  302
 #define STRINGID_PKMNHUNGONWITHX                      303
 #define STRINGID_EMPTYSTRING3                         304
-#define STRINGID_PKMNSXPREVENTSBURNS                  305
+#define STRINGID_PKMNSXPREVENTSBURNS                  305             
 #define STRINGID_PKMNSXBLOCKSY                        306
 #define STRINGID_PKMNSXRESTOREDHPALITTLE2             307
 #define STRINGID_PKMNSXWHIPPEDUPSANDSTORM             308
@@ -707,8 +707,10 @@
 #define STRINGID_BIZARREARENACREATED                  705
 #define STRINGID_BIZARREAREACREATED                   706
 #define STRINGID_TIDYINGUPCOMPLETE                    707
+#define STRINGID_PKMNSXPREVENTSFROSTBITE              708
+#define STRINGID_PKMNALREADYHASFROSTBITE              709
 
-#define BATTLESTRINGS_COUNT                           708
+#define BATTLESTRINGS_COUNT                           710
 
 // This is the string id that gBattleStringsTable starts with.
 // String ids before this (e.g. STRINGID_INTROMSG) are not in the table,
@@ -898,7 +900,7 @@
 #define B_MSG_STATUSED            0
 #define B_MSG_STATUSED_BY_ABILITY 1
 
-// gBRNPreventionStringIds / gPRLZPreventionStringIds / gPSNPreventionStringIds
+// gBRNPreventionStringIds / gPRLZPreventionStringIds / gPSNPreventionStringIds / gFRBPreventionStringIds
 #define B_MSG_ABILITY_PREVENTS_MOVE_STATUS    0
 #define B_MSG_ABILITY_PREVENTS_ABILITY_STATUS 1
 #define B_MSG_STATUS_HAD_NO_EFFECT            2

@@ -879,6 +879,13 @@ const struct BattleMoveEffect gBattleMoveEffects[NUM_BATTLE_MOVE_EFFECTS] =
         .encourageEncore = TRUE,
     },
 
+    [EFFECT_FROST_BREATH] =
+    {
+        .battleScript = BattleScript_EffectFrostBreath,
+        .battleTvScore = 5,
+        .encourageEncore = TRUE,
+    },
+
     [EFFECT_MEMENTO] =
     {
         .battleScript = BattleScript_EffectMemento,

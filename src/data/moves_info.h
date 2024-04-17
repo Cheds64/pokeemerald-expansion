@@ -12525,16 +12525,18 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
     [MOVE_FROST_BREATH] =
     {
         .name = COMPOUND_STRING("Frost Breath"),
-        .description = sStormThrowDescription,
-        .effect = EFFECT_HIT,
-        .power = B_UPDATED_MOVE_DATA >= GEN_6 ? 60 : 40,
+        .description = COMPOUND_STRING(
+            "lets out an icy breath.\n"   
+            "that causes frostbite."),
+        .effect = EFFECT_FROST_BREATH,
+        .power = B_UPDATED_MOVE_DATA >= GEN_6 ? 0 : 0,
         .type = TYPE_ICE,
-        .accuracy = 90,
-        .pp = 10,
+        .accuracy = 85,
+        .pp = 15,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
-        .category = DAMAGE_CATEGORY_SPECIAL,
-        .alwaysCriticalHit = TRUE,
+        .category = DAMAGE_CATEGORY_STATUS,
+        .magicCoatAffected = TRUE,
         .contestEffect = CONTEST_EFFECT_AFFECTED_BY_PREV_APPEAL,
         .contestCategory = CONTEST_CATEGORY_BEAUTY,
         .contestComboStarterId = 0,
