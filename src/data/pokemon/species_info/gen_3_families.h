@@ -841,7 +841,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .description = COMPOUND_STRING(
             "Rubbing its nose against the ground, it\n"
             "always wanders about back and forth in\n"
-            "search of something. It is distinguished\n"
+            "search of fights. It is distinguished\n"
             "by the zigzag footprints it leaves."),
         .pokemonScale = 560,
         .pokemonOffset = 22,

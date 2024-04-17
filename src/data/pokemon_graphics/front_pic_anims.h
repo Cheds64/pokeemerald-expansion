@@ -381,26 +381,8 @@ PLACEHOLDER_ANIM_SINGLE_FRAME(RaichuAlolan);
 #endif //P_FAMILY_PIKACHU
 
 #if P_FAMILY_SANDSHREW
-static const union AnimCmd sAnim_Sandshrew_1[] =
-{
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_END,
-};
-
-static const union AnimCmd sAnim_Sandslash_1[] =
-{
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_END,
-};
-
+PLACEHOLDER_ANIM_SINGLE_FRAME(Sandshrew);
+PLACEHOLDER_ANIM_SINGLE_FRAME(Sandslash);
 #if P_ALOLAN_FORMS
 PLACEHOLDER_ANIM_SINGLE_FRAME(SandshrewAlolan);
 PLACEHOLDER_ANIM_SINGLE_FRAME(SandslashAlolan);
