@@ -474,26 +474,8 @@ static const union AnimCmd sAnim_Clefable_1[] =
 #endif //P_FAMILY_CLEFAIRY
 
 #if P_FAMILY_VULPIX
-static const union AnimCmd sAnim_Vulpix_1[] =
-{
-    ANIMCMD_FRAME(0, 15),
-    ANIMCMD_FRAME(1, 20),
-    ANIMCMD_FRAME(0, 15),
-    ANIMCMD_FRAME(1, 20),
-    ANIMCMD_FRAME(0, 15),
-    ANIMCMD_END,
-};
-
-static const union AnimCmd sAnim_Ninetales_1[] =
-{
-    ANIMCMD_FRAME(0, 15),
-    ANIMCMD_FRAME(1, 20),
-    ANIMCMD_FRAME(0, 15),
-    ANIMCMD_FRAME(1, 20),
-    ANIMCMD_FRAME(0, 15),
-    ANIMCMD_END,
-};
-
+PLACEHOLDER_ANIM_SINGLE_FRAME(Vulpix);
+PLACEHOLDER_ANIM_SINGLE_FRAME(Ninetales);
 #if P_ALOLAN_FORMS
 PLACEHOLDER_ANIM_SINGLE_FRAME(VulpixAlolan);
 PLACEHOLDER_ANIM_SINGLE_FRAME(NinetalesAlolan);
