@@ -859,7 +859,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .palette = gMonPalette_Zigzagoon,
         .shinyPalette = gMonShinyPalette_Zigzagoon,
         .iconSprite = gMonIcon_Zigzagoon,
-        .iconPalIndex = 2,
+        .iconPalIndex = 0,
         FOOTPRINT(Zigzagoon)
         .levelUpLearnset = sZigzagoonLevelUpLearnset,
         .teachableLearnset = sZigzagoonTeachableLearnset,
@@ -915,7 +915,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .palette = gMonPalette_Linoone,
         .shinyPalette = gMonShinyPalette_Linoone,
         .iconSprite = gMonIcon_Linoone,
-        .iconPalIndex = 2,
+        .iconPalIndex = 0,
         FOOTPRINT(Linoone)
         .levelUpLearnset = sLinooneLevelUpLearnset,
         .teachableLearnset = sLinooneTeachableLearnset,

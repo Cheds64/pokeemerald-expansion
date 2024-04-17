@@ -479,7 +479,7 @@ const u8 gMonFootprint_QuestionMark[] = INCBIN_U8("graphics/pokemon/question_mar
         const u8 gMonIcon_PikachuPartnerF[] = INCBIN_U8("graphics/pokemon/pikachu/partner/iconf.4bpp");
     #endif
 
-    const u32 gMonFrontPic_Raichu[] = INCBIN_U32("graphics/pokemon/raichu/anim_front.4bpp.lz");
+    const u32 gMonFrontPic_Raichu[] = INCBIN_U32("graphics/pokemon/raichu/front.4bpp.lz");
     const u32 gMonPalette_Raichu[] = INCBIN_U32("graphics/pokemon/raichu/normal.gbapal.lz");
     const u32 gMonBackPic_Raichu[] = INCBIN_U32("graphics/pokemon/raichu/back.4bpp.lz");
     const u32 gMonShinyPalette_Raichu[] = INCBIN_U32("graphics/pokemon/raichu/shiny.gbapal.lz");
