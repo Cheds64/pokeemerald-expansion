@@ -5375,7 +5375,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sMeowthTeachableLearnset,
         .formSpeciesIdTable = sMeowthFormSpeciesIdTable,
         .formChangeTable = sMeowthFormChangeTable,
-        .evolutions = EVOLUTION({EVO_LEVEL, 28, SPECIES_PERSIAN}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 28, SPECIES_PERSIAN},
+                                {EVO_ITEM, ITEM_METAL_COAT, SPECIES_PERRSERKER})
     },
 
     [SPECIES_PERSIAN] =
@@ -5431,6 +5432,57 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sPersianLevelUpLearnset,
         .teachableLearnset = sPersianTeachableLearnset,
         .formSpeciesIdTable = sPersianFormSpeciesIdTable,
+    },
+
+    [SPECIES_PERRSERKER] =
+    {
+        .baseHP        = 70,
+        .baseAttack    = 110,
+        .baseDefense   = 100,
+        .baseSpeed     = 50,
+        .baseSpAttack  = 50,
+        .baseSpDefense = 60,
+        .types = MON_TYPES(TYPE_STEEL),
+        .catchRate = 90,
+        .expYield = 154,
+        .evYield_Attack = 2,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
+        .abilities = { ABILITY_BATTLE_ARMOR, ABILITY_TOUGH_CLAWS, ABILITY_STEELY_SPIRIT },
+        .bodyColor = BODY_COLOR_BROWN,
+        .speciesName = _("Perrserker"),
+        .cryId = CRY_PERRSERKER,
+        .natDexNum = NATIONAL_DEX_PERRSERKER,
+        .categoryName = _("Viking"),
+        .height = 8,
+        .weight = 280,
+        .description = COMPOUND_STRING(
+            "What appears to be an iron helmet is\n"
+            "actually hardened hair. This Pokémon\n"
+            "lives for the thrill of battle."),
+        .pokemonScale = 366,
+        .pokemonOffset = 7,
+        .trainerScale = 257,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_Perrserker,
+        .frontPicSize = MON_COORDS_SIZE(48, 64),
+        .frontPicYOffset = 2,
+        .frontAnimFrames = sAnims_Perrserker,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_Perrserker,
+        .backPicSize = MON_COORDS_SIZE(64, 56),
+        .backPicYOffset = 5,
+        //.backAnimId = BACK_ANIM_NONE,
+        .palette = gMonPalette_Perrserker,
+        .shinyPalette = gMonShinyPalette_Perrserker,
+        .iconSprite = gMonIcon_Perrserker,
+        .iconPalIndex = 2,
+        FOOTPRINT(Perrserker)
+        .levelUpLearnset = sPerrserkerLevelUpLearnset,
+        .teachableLearnset = sPerrserkerTeachableLearnset,
     },
 
 #if P_ALOLAN_FORMS

@@ -1338,6 +1338,26 @@ static const struct LevelUpMove sPersianLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
+static const struct LevelUpMove sPerrserkerLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_IRON_HEAD),
+    LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
+    LEVEL_UP_MOVE( 1, MOVE_GROWL),
+    LEVEL_UP_MOVE( 1, MOVE_FAKE_OUT),
+    LEVEL_UP_MOVE( 1, MOVE_IRON_DEFENSE),
+    LEVEL_UP_MOVE( 1, MOVE_METAL_BURST),
+    LEVEL_UP_MOVE( 1, MOVE_HONE_CLAWS),
+    LEVEL_UP_MOVE(12, MOVE_PAY_DAY),
+    LEVEL_UP_MOVE(16, MOVE_METAL_CLAW),
+    LEVEL_UP_MOVE(20, MOVE_TAUNT),
+    LEVEL_UP_MOVE(24, MOVE_SWAGGER),
+    LEVEL_UP_MOVE(31, MOVE_FURY_SWIPES),
+    LEVEL_UP_MOVE(36, MOVE_SCREECH),
+    LEVEL_UP_MOVE(42, MOVE_SLASH),
+    LEVEL_UP_MOVE(48, MOVE_METAL_SOUND),
+    LEVEL_UP_MOVE(54, MOVE_THRASH),
+    LEVEL_UP_END
+};
+
 #if P_ALOLAN_FORMS
 static const struct LevelUpMove sMeowthAlolanLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
