@@ -2171,7 +2171,7 @@ const u16 gEggMoves[] = {
         MOVE_SLEEP_TALK,
         MOVE_ROCK_CLIMB,
         MOVE_SIMPLE_BEAM,
-        MOVE_EXTREME_SPEED
+        MOVE_EXTREME_SPEED,
         MOVE_PARTING_SHOT,
         MOVE_QUICK_GUARD,
         MOVE_KNOCK_OFF),
