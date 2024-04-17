@@ -827,24 +827,8 @@ PLACEHOLDER_ANIM_SINGLE_FRAME(Annihilape);
 #endif //P_FAMILY_MANKEY
 
 #if P_FAMILY_GROWLITHE
-static const union AnimCmd sAnim_Growlithe_1[] =
-{
-    ANIMCMD_FRAME(1, 8),
-    ANIMCMD_FRAME(0, 8),
-    ANIMCMD_FRAME(1, 8),
-    ANIMCMD_FRAME(0, 15),
-    ANIMCMD_FRAME(1, 20),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_END,
-};
-
-static const union AnimCmd sAnim_Arcanine_1[] =
-{
-    ANIMCMD_FRAME(1, 38),
-    ANIMCMD_FRAME(0, 1),
-    ANIMCMD_END,
-};
-
+PLACEHOLDER_ANIM_SINGLE_FRAME(Growlithe);
+PLACEHOLDER_ANIM_SINGLE_FRAME(Arcanine);
 #if P_HISUIAN_FORMS
 PLACEHOLDER_ANIM_SINGLE_FRAME(GrowlitheHisuian);
 PLACEHOLDER_ANIM_SINGLE_FRAME(ArcanineHisuian);
