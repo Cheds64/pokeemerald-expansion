@@ -3439,7 +3439,7 @@ const u32 gMonFrontPic_Sirfetchd[] = INCBIN_U32("graphics/pokemon/sirfetchd/fron
 #endif //P_FAMILY_SNUBBULL
 
 #if P_FAMILY_QWILFISH
-    const u32 gMonFrontPic_Qwilfish[] = INCBIN_U32("graphics/pokemon/qwilfish/anim_front.4bpp.lz");
+    const u32 gMonFrontPic_Qwilfish[] = INCBIN_U32("graphics/pokemon/qwilfish/front.4bpp.lz");
     const u32 gMonPalette_Qwilfish[] = INCBIN_U32("graphics/pokemon/qwilfish/normal.gbapal.lz");
     const u32 gMonBackPic_Qwilfish[] = INCBIN_U32("graphics/pokemon/qwilfish/back.4bpp.lz");
     const u32 gMonShinyPalette_Qwilfish[] = INCBIN_U32("graphics/pokemon/qwilfish/shiny.gbapal.lz");
@@ -3448,6 +3448,14 @@ const u32 gMonFrontPic_Sirfetchd[] = INCBIN_U32("graphics/pokemon/sirfetchd/fron
     const u8 gMonFootprint_Qwilfish[] = INCBIN_U8("graphics/pokemon/qwilfish/footprint.1bpp");
 #endif //P_FOOTPRINTS
 
+const u32 gMonFrontPic_Overqwil[] = INCBIN_U32("graphics/pokemon/overqwil/front.4bpp.lz");
+    const u32 gMonPalette_Overqwil[] = INCBIN_U32("graphics/pokemon/overqwil/normal.gbapal.lz");
+    const u32 gMonBackPic_Overqwil[] = INCBIN_U32("graphics/pokemon/overqwil/back.4bpp.lz");
+    const u32 gMonShinyPalette_Overqwil[] = INCBIN_U32("graphics/pokemon/overqwil/shiny.gbapal.lz");
+    const u8 gMonIcon_Overqwil[] = INCBIN_U8("graphics/pokemon/overqwil/icon.4bpp");
+#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Overqwil[] = INCBIN_U8("graphics/pokemon/overqwil/footprint.1bpp");
+#endif //P_FOOTPRINTS
 #if P_HISUIAN_FORMS
     const u32 gMonFrontPic_QwilfishHisuian[] = INCBIN_U32("graphics/pokemon/qwilfish/hisuian/front.4bpp.lz");
     const u32 gMonPalette_QwilfishHisuian[] = INCBIN_U32("graphics/pokemon/qwilfish/hisuian/normal.gbapal.lz");
