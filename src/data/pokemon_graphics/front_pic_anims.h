@@ -2907,6 +2907,7 @@ static const union AnimCmd sAnim_Weavile_1[] =
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_END,
 };
+PLACEHOLDER_ANIM_SINGLE_FRAME(Sneasler);
 #endif //P_GEN_4_CROSS_EVOS
 
 #if P_HISUIAN_FORMS
@@ -10723,6 +10724,7 @@ SINGLE_ANIMATION(HeracrossMega);
 SINGLE_ANIMATION(Sneasel);
 #if P_GEN_4_CROSS_EVOS
 SINGLE_ANIMATION(Weavile);
+SINGLE_ANIMATION(Sneasler);
 #endif //P_GEN_4_CROSS_EVOS
 #if P_HISUIAN_FORMS
 SINGLE_ANIMATION(SneaselHisuian);

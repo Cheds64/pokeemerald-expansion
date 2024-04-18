@@ -3532,6 +3532,15 @@ const u32 gMonFrontPic_Overqwil[] = INCBIN_U32("graphics/pokemon/overqwil/front.
 
     const u32 gMonFrontPic_WeavileF[] = INCBIN_U32("graphics/pokemon/weavile/anim_frontf.4bpp.lz");
     const u32 gMonBackPic_WeavileF[] = INCBIN_U32("graphics/pokemon/weavile/backf.4bpp.lz");
+
+    const u32 gMonFrontPic_Sneasler[] = INCBIN_U32("graphics/pokemon/sneasler/front.4bpp.lz");
+    const u32 gMonPalette_Sneasler[] = INCBIN_U32("graphics/pokemon/sneasler/normal.gbapal.lz");
+    const u32 gMonBackPic_Sneasler[] = INCBIN_U32("graphics/pokemon/sneasler/back.4bpp.lz");
+    const u32 gMonShinyPalette_Sneasler[] = INCBIN_U32("graphics/pokemon/sneasler/shiny.gbapal.lz");
+    const u8 gMonIcon_Sneasler[] = INCBIN_U8("graphics/pokemon/sneasler/icon.4bpp");
+#if P_FOOTPRINTS
+    //const u8 gMonFootprint_Sneasler[] = INCBIN_U8("graphics/pokemon/sneasler/footprint.1bpp");
+#endif //P_FOOTPRINTS
 #endif //P_GEN_4_CROSS_EVOS
 
 #if P_HISUIAN_FORMS

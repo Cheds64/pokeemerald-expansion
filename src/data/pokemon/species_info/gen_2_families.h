@@ -4243,7 +4243,9 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .teachableLearnset = sSneaselTeachableLearnset,
         .formSpeciesIdTable = sSneaselFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_ITEM_HOLD_NIGHT, ITEM_RAZOR_CLAW, SPECIES_WEAVILE},
-                                {EVO_ITEM_NIGHT, ITEM_RAZOR_CLAW, SPECIES_WEAVILE}),
+                                {EVO_ITEM_NIGHT, ITEM_RAZOR_CLAW, SPECIES_WEAVILE},
+                                {EVO_ITEM_HOLD_DAY, ITEM_RAZOR_CLAW, SPECIES_SNEASLER},
+                                {EVO_ITEM_DAY, ITEM_RAZOR_CLAW, SPECIES_SNEASLER}),
     },
 
 #if P_GEN_4_CROSS_EVOS
@@ -4303,6 +4305,58 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         FOOTPRINT(Weavile)
         .levelUpLearnset = sWeavileLevelUpLearnset,
         .teachableLearnset = sWeavileTeachableLearnset,
+    },
+
+    [SPECIES_SNEASLER] =
+    {
+        .baseHP        = 80,
+        .baseAttack    = 130,
+        .baseDefense   = 60,
+        .baseSpeed     = 120,
+        .baseSpAttack  = 40,
+        .baseSpDefense = 80,
+        .types = MON_TYPES(TYPE_FIGHTING, TYPE_POISON),
+        .catchRate = 20,
+        .expYield = 102,
+        .evYield_Attack = 2,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
+        .abilities = { ABILITY_PRESSURE, ABILITY_UNBURDEN, ABILITY_POISON_TOUCH },
+        .bodyColor = BODY_COLOR_BLUE,
+        .speciesName = _("Sneasler"),
+        .cryId = CRY_SNEASLER,
+        .natDexNum = NATIONAL_DEX_SNEASLER,
+        .categoryName = _("Free Climb"),
+        .height = 13,
+        .weight = 430,
+        .description = COMPOUND_STRING(
+            "Because of its wicked poison and daunting\n"
+            "physical prowess, no other species could\n"
+            "hope to best it on frozen highlands. It\n"
+            "prefers solitude and doesn't form packs."),
+        .pokemonScale = 272,
+        .pokemonOffset = 3,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_Sneasler,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 1,
+        .frontAnimFrames = sAnims_Sneasler,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_Sneasler,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 0,
+        //.backAnimId = BACK_ANIM_NONE,
+        .palette = gMonPalette_Sneasler,
+        .shinyPalette = gMonShinyPalette_Sneasler,
+        .iconSprite = gMonIcon_Sneasler,
+        .iconPalIndex = 2,
+        //FOOTPRINT(Sneasler)
+        .levelUpLearnset = sSneaslerLevelUpLearnset,
+        .teachableLearnset = sSneaslerTeachableLearnset,
     },
 #endif //P_GEN_4_CROSS_EVOS
 
