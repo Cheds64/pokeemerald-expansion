@@ -1343,13 +1343,22 @@ const u32 gMonFrontPic_Perrserker[] = INCBIN_U32("graphics/pokemon/perrserker/fr
 #endif //P_FAMILY_MAGNEMITE
 
 #if P_FAMILY_FARFETCHD
-    const u32 gMonFrontPic_Farfetchd[] = INCBIN_U32("graphics/pokemon/farfetchd/anim_front.4bpp.lz");
+    const u32 gMonFrontPic_Farfetchd[] = INCBIN_U32("graphics/pokemon/farfetchd/front.4bpp.lz");
     const u32 gMonPalette_Farfetchd[] = INCBIN_U32("graphics/pokemon/farfetchd/normal.gbapal.lz");
     const u32 gMonBackPic_Farfetchd[] = INCBIN_U32("graphics/pokemon/farfetchd/back.4bpp.lz");
     const u32 gMonShinyPalette_Farfetchd[] = INCBIN_U32("graphics/pokemon/farfetchd/shiny.gbapal.lz");
     const u8 gMonIcon_Farfetchd[] = INCBIN_U8("graphics/pokemon/farfetchd/icon.4bpp");
 #if P_FOOTPRINTS
     const u8 gMonFootprint_Farfetchd[] = INCBIN_U8("graphics/pokemon/farfetchd/footprint.1bpp");
+#endif //P_FOOTPRINTS
+
+const u32 gMonFrontPic_Sirfetchd[] = INCBIN_U32("graphics/pokemon/sirfetchd/front.4bpp.lz");
+    const u32 gMonPalette_Sirfetchd[] = INCBIN_U32("graphics/pokemon/sirfetchd/normal.gbapal.lz");
+    const u32 gMonBackPic_Sirfetchd[] = INCBIN_U32("graphics/pokemon/sirfetchd/back.4bpp.lz");
+    const u32 gMonShinyPalette_Sirfetchd[] = INCBIN_U32("graphics/pokemon/sirfetchd/shiny.gbapal.lz");
+    const u8 gMonIcon_Sirfetchd[] = INCBIN_U8("graphics/pokemon/sirfetchd/icon.4bpp");
+#if P_FOOTPRINTS
+    const u8 gMonFootprint_Sirfetchd[] = INCBIN_U8("graphics/pokemon/sirfetchd/footprint.1bpp");
 #endif //P_FOOTPRINTS
 
 #if P_GALARIAN_FORMS
