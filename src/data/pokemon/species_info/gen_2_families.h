@@ -2505,7 +2505,8 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .levelUpLearnset = sWooperLevelUpLearnset,
         .teachableLearnset = sWooperTeachableLearnset,
         .formSpeciesIdTable = sWooperFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_QUAGSIRE}),
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_WATER_STONE, SPECIES_QUAGSIRE},
+                                {EVO_LEVEL, 20, SPECIES_CLODSIRE}),
     },
 
     [SPECIES_QUAGSIRE] =
@@ -2562,6 +2563,58 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         FOOTPRINT(Quagsire)
         .levelUpLearnset = sQuagsireLevelUpLearnset,
         .teachableLearnset = sQuagsireTeachableLearnset,
+    },
+
+    [SPECIES_CLODSIRE] =
+    {
+        .baseHP        = 130,
+        .baseAttack    = 75,
+        .baseDefense   = 60,
+        .baseSpeed     = 20,
+        .baseSpAttack  = 45,
+        .baseSpDefense = 100,
+        .types = MON_TYPES(TYPE_POISON, TYPE_GROUND),
+        .catchRate = 90,
+        .expYield = 151,
+        .evYield_HP = 2,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_1, EGG_GROUP_FIELD),
+        .abilities = { ABILITY_POISON_POINT, ABILITY_WATER_ABSORB, ABILITY_UNAWARE },
+        .bodyColor = BODY_COLOR_BROWN,
+        .speciesName = _("Clodsire"),
+        .cryId = CRY_CLODSIRE,
+        .natDexNum = NATIONAL_DEX_CLODSIRE,
+        .categoryName = _("Spiny Fish"),
+        .height = 18,
+        .weight = 2230,
+        .description = COMPOUND_STRING(
+            "When attacked, this Pokémon will\n"
+            "retaliate by sticking thick spines out\n"
+            "from its body. It's a risky move\n"
+            "that puts everything on the line."),
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_Clodsire,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 8,
+        .frontAnimFrames = sAnims_Clodsire,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_Clodsire,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 15,
+        //.backAnimId = BACK_ANIM_NONE,
+        .palette = gMonPalette_Clodsire,
+        .shinyPalette = gMonShinyPalette_Clodsire,
+        .iconSprite = gMonIcon_Clodsire,
+        .iconPalIndex = 0,
+        //FOOTPRINT(Clodsire)
+        .levelUpLearnset = sClodsireLevelUpLearnset,
+        .teachableLearnset = sClodsireTeachableLearnset,
     },
 
 #if P_PALDEAN_FORMS

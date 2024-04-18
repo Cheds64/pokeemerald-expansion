@@ -3101,6 +3101,14 @@ const u32 gMonFrontPic_Sirfetchd[] = INCBIN_U32("graphics/pokemon/sirfetchd/fron
     const u32 gMonFrontPic_QuagsireF[] = INCBIN_U32("graphics/pokemon/quagsire/anim_frontf.4bpp.lz");
     const u32 gMonBackPic_QuagsireF[] = INCBIN_U32("graphics/pokemon/quagsire/backf.4bpp.lz");
 
+    const u32 gMonFrontPic_Clodsire[] = INCBIN_U32("graphics/pokemon/clodsire/front.4bpp.lz");
+    const u32 gMonPalette_Clodsire[] = INCBIN_U32("graphics/pokemon/clodsire/normal.gbapal.lz");
+    const u32 gMonBackPic_Clodsire[] = INCBIN_U32("graphics/pokemon/clodsire/back.4bpp.lz");
+    const u32 gMonShinyPalette_Clodsire[] = INCBIN_U32("graphics/pokemon/clodsire/shiny.gbapal.lz");
+    const u8 gMonIcon_Clodsire[] = INCBIN_U8("graphics/pokemon/clodsire/icon.4bpp");
+#if P_FOOTPRINTS
+    // const u8 gMonFootprint_Clodsire[] = INCBIN_U8("graphics/pokemon/clodsire/footprint.1bpp");
+#endif //P_FOOTPRINTS
 #if P_PALDEAN_FORMS
     const u32 gMonFrontPic_WooperPaldean[] = INCBIN_U32("graphics/pokemon/wooper/wooper_paldean/front.4bpp.lz");
     const u32 gMonPalette_WooperPaldean[] = INCBIN_U32("graphics/pokemon/wooper/wooper_paldean/normal.gbapal.lz");

@@ -10100,6 +10100,31 @@ static const u16 sQuagsireTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
+static const u16 sClodsireTeachableLearnset[] = {
+    MOVE_DIG,
+    MOVE_EARTHQUAKE,
+    MOVE_FACADE,
+    MOVE_HYPER_BEAM,
+    MOVE_PROTECT,
+    MOVE_RAIN_DANCE,
+    MOVE_REST,
+    MOVE_ROCK_TOMB,
+    MOVE_SANDSTORM,
+    MOVE_SLUDGE_BOMB,
+    MOVE_SURF,
+    MOVE_TOXIC,
+    MOVE_WATERFALL,
+    MOVE_WATER_PULSE,
+    MOVE_BODY_SLAM,
+    MOVE_COUNTER,
+    MOVE_DOUBLE_EDGE,
+    MOVE_ENDURE,
+    MOVE_MUD_SLAP,
+    MOVE_ROCK_SLIDE,
+    MOVE_SLEEP_TALK,
+    MOVE_UNAVAILABLE,
+};
+
 #if P_PALDEAN_FORMS
 static const u16 sWooperPaldeanTeachableLearnset[] = {
     MOVE_DIG,

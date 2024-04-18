@@ -5781,6 +5781,23 @@ static const struct LevelUpMove sQuagsireLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
+static const struct LevelUpMove sClodsireLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_AMNESIA),
+    LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
+    LEVEL_UP_MOVE( 1, MOVE_POISON_STING),
+    LEVEL_UP_MOVE( 4, MOVE_TOXIC_SPIKES),
+    LEVEL_UP_MOVE( 8, MOVE_MUD_SHOT),
+    LEVEL_UP_MOVE(12, MOVE_POISON_TAIL),
+    LEVEL_UP_MOVE(16, MOVE_SLAM),
+    LEVEL_UP_MOVE(21, MOVE_YAWN),
+    LEVEL_UP_MOVE(24, MOVE_POISON_JAB),
+    LEVEL_UP_MOVE(30, MOVE_SLUDGE_WAVE),
+    LEVEL_UP_MOVE(36, MOVE_MEGAHORN),
+    LEVEL_UP_MOVE(40, MOVE_TOXIC),
+    LEVEL_UP_MOVE(48, MOVE_EARTHQUAKE),
+    LEVEL_UP_END
+};
+
 #if P_PALDEAN_FORMS
 static const struct LevelUpMove sWooperPaldeanLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
