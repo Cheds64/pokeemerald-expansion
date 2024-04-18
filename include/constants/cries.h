@@ -335,6 +335,7 @@ enum {
     CRY_MIME_JR,
 #endif //P_GEN_4_CROSS_EVOS
     CRY_MR_MIME,
+    CRY_MR_RIME,
 #if P_GALARIAN_FORMS
     CRY_MR_RIME,
 #endif //P_GALARIAN_FORMS
