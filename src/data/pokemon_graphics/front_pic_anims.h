@@ -1154,26 +1154,8 @@ static const union AnimCmd sAnim_Dewgong_1[] =
 #endif //P_FAMILY_SEEL
 
 #if P_FAMILY_GRIMER
-static const union AnimCmd sAnim_Grimer_1[] =
-{
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_END,
-};
-
-static const union AnimCmd sAnim_Muk_1[] =
-{
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_END,
-};
-
+PLACEHOLDER_ANIM_SINGLE_FRAME(Grimer);
+PLACEHOLDER_ANIM_SINGLE_FRAME(Muk);
 #if P_ALOLAN_FORMS
 PLACEHOLDER_ANIM_SINGLE_FRAME(GrimerAlolan);
 PLACEHOLDER_ANIM_SINGLE_FRAME(MukAlolan);
