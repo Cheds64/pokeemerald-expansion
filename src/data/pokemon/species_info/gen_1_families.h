@@ -9977,13 +9977,13 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 
     [SPECIES_VOLTORB] =
     {
-        .baseHP        = 40,
+       .baseHP        = 40,
         .baseAttack    = 30,
         .baseDefense   = 50,
         .baseSpeed     = 100,
         .baseSpAttack  = 55,
         .baseSpDefense = 55,
-        .types = MON_TYPES(TYPE_ELECTRIC),
+        .types = MON_TYPES(TYPE_ELECTRIC, TYPE_GRASS),
         .catchRate = 190,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 66 : 103,
         .evYield_Speed = 1,
@@ -9997,27 +9997,27 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Voltorb"),
         .cryId = CRY_VOLTORB,
         .natDexNum = NATIONAL_DEX_VOLTORB,
-        .categoryName = _("Ball"),
+        .categoryName = _("Sphere"),
         .height = 5,
-        .weight = 104,
+        .weight = 130,
         .description = COMPOUND_STRING(
-            "It bears an uncanny and unexplained\n"
-            "resemblance to a Poké Ball. Because it\n"
-            "explodes at the slightest shock, even\n"
-            "veteran Trainers treat it with caution."),
+            "It esembles an ancient Poké Ball design.\n"
+            "When excited, it discharges the electric\n"
+            "current it has stored in its belly, then\n"
+            "lets out a great, uproarious laugh."),
         .pokemonScale = 364,
         .pokemonOffset = -8,
         .trainerScale = 256,
         .trainerOffset = 0,
         .frontPic = gMonFrontPic_Voltorb,
-        .frontPicSize = MON_COORDS_SIZE(32, 40),
-        .frontPicYOffset = 15,
+        .frontPicSize = MON_COORDS_SIZE(32, 32),
+        .frontPicYOffset = 17,
         .frontAnimFrames = sAnims_Voltorb,
-        .frontAnimId = ANIM_SWING_CONCAVE,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
         .backPic = gMonBackPic_Voltorb,
-        .backPicSize = MON_COORDS_SIZE(48, 40),
-        .backPicYOffset = 14,
-        .backAnimId = BACK_ANIM_JOLT_RIGHT,
+        .backPicSize = MON_COORDS_SIZE(48, 32),
+        .backPicYOffset = 10,
+        //.backAnimId = BACK_ANIM_NONE,
         .palette = gMonPalette_Voltorb,
         .shinyPalette = gMonShinyPalette_Voltorb,
         .iconSprite = gMonIcon_Voltorb,
@@ -10037,7 +10037,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpeed     = P_UPDATED_STATS >= GEN_7 ? 150 : 140,
         .baseSpAttack  = 80,
         .baseSpDefense = 80,
-        .types = MON_TYPES(TYPE_ELECTRIC),
+        .types = MON_TYPES(TYPE_ELECTRIC, TYPE_GRASS),
         .catchRate = 60,
         .expYield = ELECTRODE_EXP_YIELD,
         .evYield_Speed = 2,
@@ -10051,31 +10051,31 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Electrode"),
         .cryId = CRY_ELECTRODE,
         .natDexNum = NATIONAL_DEX_ELECTRODE,
-        .categoryName = _("Ball"),
+        .categoryName = _("Sphere"),
         .height = 12,
-        .weight = 666,
+        .weight = 710,
         .description = COMPOUND_STRING(
-            "They appear in great numbers at electric\n"
-            "power plants. Because they feed on\n"
-            "electricity, they cause massive and\n"
-            "chaotic blackouts in nearby cities."),
+            "The tissue on the surface of its body is\n"
+            "similar in composition to an Apricorn.\n"
+            "When irritated, it lets loose an electric\n"
+            "current equal to 20 lightning bolts."),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 256,
         .trainerOffset = 0,
         .frontPic = gMonFrontPic_Electrode,
         .frontPicSize = MON_COORDS_SIZE(48, 48),
-        .frontPicYOffset = 11,
+        .frontPicYOffset = 9,
         .frontAnimFrames = sAnims_Electrode,
-        .frontAnimId = ANIM_SHRINK_GROW_VIBRATE_SLOW,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
         .backPic = gMonBackPic_Electrode,
         .backPicSize = MON_COORDS_SIZE(64, 40),
-        .backPicYOffset = 13,
-        .backAnimId = BACK_ANIM_JOLT_RIGHT,
+        .backPicYOffset = 7,
+        //.backAnimId = BACK_ANIM_NONE,
         .palette = gMonPalette_Electrode,
         .shinyPalette = gMonShinyPalette_Electrode,
         .iconSprite = gMonIcon_Electrode,
-        .iconPalIndex = 0,
+        .iconPalIndex = 1,
         FOOTPRINT(Electrode)
         .levelUpLearnset = sElectrodeLevelUpLearnset,
         .teachableLearnset = sElectrodeTeachableLearnset,
@@ -10985,34 +10985,30 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpeed     = 60,
         .baseSpAttack  = 85,
         .baseSpDefense = 70,
-        .types = MON_TYPES(TYPE_POISON),
+        .types = MON_TYPES(TYPE_POISON, TYPE_FAIRY),
         .catchRate = 60,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 172 : 173,
         .evYield_Defense = 2,
-        .itemRare = ITEM_SMOKE_BALL,
+        .itemRare = ITEM_MISTY_SEED,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS),
-    #if P_UPDATED_ABILITIES >= GEN_8
-        .abilities = { ABILITY_LEVITATE, ABILITY_NEUTRALIZING_GAS, ABILITY_STENCH },
-    #else
-        .abilities = { ABILITY_LEVITATE, ABILITY_NONE, ABILITY_NONE },
-    #endif
-        .bodyColor = BODY_COLOR_PURPLE,
+        .abilities = { ABILITY_LEVITATE, ABILITY_NEUTRALIZING_GAS, ABILITY_MISTY_SURGE },
+        .bodyColor = BODY_COLOR_GRAY,
         .noFlip = TRUE,
         .speciesName = _("Weezing"),
         .cryId = CRY_WEEZING,
         .natDexNum = NATIONAL_DEX_WEEZING,
         .categoryName = _("Poison Gas"),
-        .height = 12,
-        .weight = 95,
+        .height = 30,
+        .weight = 160,
         .description = COMPOUND_STRING(
-            "By diluting its toxic gases with a special\n"
-            "process, the highest grade of perfume can\n"
-            "be extracted. To Weezing, gases emanating\n"
-            "from garbage are the ultimate feast."),
+            "Long ago, when droves of factories fouled\n"
+            "the air with pollution, it changed into this\n"
+            "form for some reason. It consumes air\n"
+            "pollutant particles, expelling clean air."),
         .pokemonScale = 305,
         .pokemonOffset = 3,
         .trainerScale = 256,
@@ -11021,16 +11017,16 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
         .frontAnimFrames = sAnims_Weezing,
-        .frontAnimId = ANIM_V_SLIDE,
-        .enemyMonElevation = 3,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .enemyMonElevation = 6,
         .backPic = gMonBackPic_Weezing,
-        .backPicSize = MON_COORDS_SIZE(64, 48),
-        .backPicYOffset = 9,
-        .backAnimId = BACK_ANIM_GROW,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 0,
+        //.backAnimId = BACK_ANIM_NONE,
         .palette = gMonPalette_Weezing,
         .shinyPalette = gMonShinyPalette_Weezing,
         .iconSprite = gMonIcon_Weezing,
-        .iconPalIndex = 2,
+        .iconPalIndex = 1,
         FOOTPRINT(Weezing)
         .levelUpLearnset = sWeezingLevelUpLearnset,
         .teachableLearnset = sWeezingTeachableLearnset,

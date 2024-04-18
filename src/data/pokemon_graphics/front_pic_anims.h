@@ -1297,25 +1297,8 @@ PLACEHOLDER_ANIM_SINGLE_FRAME(KinglerGigantamax);
 #endif //P_FAMILY_KRABBY
 
 #if P_FAMILY_VOLTORB
-static const union AnimCmd sAnim_Voltorb_1[] =
-{
-    ANIMCMD_FRAME(0, 4),
-    ANIMCMD_FRAME(1, 25),
-    ANIMCMD_FRAME(0, 4),
-    ANIMCMD_FRAME(1, 25),
-    ANIMCMD_FRAME(0, 4),
-    ANIMCMD_END,
-};
-
-static const union AnimCmd sAnim_Electrode_1[] =
-{
-    ANIMCMD_FRAME(0, 14),
-    ANIMCMD_FRAME(1, 34),
-    ANIMCMD_FRAME(1, 34),
-    ANIMCMD_FRAME(0, 1),
-    ANIMCMD_END,
-};
-
+PLACEHOLDER_ANIM_SINGLE_FRAME(Voltorb);
+PLACEHOLDER_ANIM_SINGLE_FRAME(Electrode);
 #if P_HISUIAN_FORMS
 PLACEHOLDER_ANIM_SINGLE_FRAME(VoltorbHisuian);
 PLACEHOLDER_ANIM_SINGLE_FRAME(ElectrodeHisuian);
@@ -1459,17 +1442,7 @@ static const union AnimCmd sAnim_Koffing_1[] =
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_END,
 };
-
-static const union AnimCmd sAnim_Weezing_1[] =
-{
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_END,
-};
-
+PLACEHOLDER_ANIM_SINGLE_FRAME(Weezing);
 #if P_GALARIAN_FORMS
 PLACEHOLDER_ANIM_SINGLE_FRAME(WeezingGalarian);
 #endif //P_GALARIAN_FORMS
