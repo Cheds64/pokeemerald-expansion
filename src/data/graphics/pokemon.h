@@ -7533,6 +7533,14 @@ const u32 gMonFrontPic_BasculegionFemale[] = INCBIN_U32("graphics/pokemon/bascul
     const u8 gMonFootprint_Cofagrigus[] = INCBIN_U8("graphics/pokemon/cofagrigus/footprint.1bpp");
 #endif //P_FOOTPRINTS
 
+    const u32 gMonFrontPic_Runerigus[] = INCBIN_U32("graphics/pokemon/runerigus/front.4bpp.lz");
+    const u32 gMonPalette_Runerigus[] = INCBIN_U32("graphics/pokemon/runerigus/normal.gbapal.lz");
+    const u32 gMonBackPic_Runerigus[] = INCBIN_U32("graphics/pokemon/runerigus/back.4bpp.lz");
+    const u32 gMonShinyPalette_Runerigus[] = INCBIN_U32("graphics/pokemon/runerigus/shiny.gbapal.lz");
+    const u8 gMonIcon_Runerigus[] = INCBIN_U8("graphics/pokemon/runerigus/icon.4bpp");
+#if P_FOOTPRINTS
+    const u8 gMonFootprint_Runerigus[] = INCBIN_U8("graphics/pokemon/runerigus/footprint.1bpp");
+#endif //P_FOOTPRINTS
 #if P_GALARIAN_FORMS
     const u32 gMonFrontPic_YamaskGalarian[] = INCBIN_U32("graphics/pokemon/yamask/galarian/front.4bpp.lz");
     const u32 gMonPalette_YamaskGalarian[] = INCBIN_U32("graphics/pokemon/yamask/galarian/normal.gbapal.lz");

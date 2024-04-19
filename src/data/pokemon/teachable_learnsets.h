@@ -23576,6 +23576,30 @@ static const u16 sCofagrigusTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
+static const u16 sRunerigusTeachableLearnset[] = {
+    MOVE_ATTRACT,
+    MOVE_CALM_MIND,
+    MOVE_EARTHQUAKE,
+    MOVE_FACADE,
+    MOVE_HYPER_BEAM,
+    MOVE_PROTECT,
+    MOVE_PSYCHIC,
+    MOVE_RAIN_DANCE,
+    MOVE_REST,
+    MOVE_ROCK_TOMB,
+    MOVE_SAFEGUARD,
+    MOVE_SANDSTORM,
+    MOVE_SHADOW_BALL,
+    MOVE_SKILL_SWAP,
+    MOVE_TAUNT,
+    MOVE_THIEF,
+    MOVE_ENDURE,
+    MOVE_ROCK_SLIDE,
+    MOVE_SLEEP_TALK,
+    MOVE_SNORE,
+    MOVE_UNAVAILABLE,
+};
+
 #if P_GALARIAN_FORMS
 static const u16 sYamaskGalarianTeachableLearnset[] = {
     MOVE_ATTRACT,

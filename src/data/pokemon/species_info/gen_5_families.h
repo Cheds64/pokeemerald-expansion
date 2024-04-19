@@ -4599,7 +4599,8 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .levelUpLearnset = sYamaskLevelUpLearnset,
         .teachableLearnset = sYamaskTeachableLearnset,
         .formSpeciesIdTable = sYamaskFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_LEVEL, 34, SPECIES_COFAGRIGUS}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 34, SPECIES_COFAGRIGUS},
+                                {EVO_SCRIPT_TRIGGER_DMG, 49, SPECIES_RUNERIGUS}),
     },
 
     [SPECIES_COFAGRIGUS] =
@@ -4653,6 +4654,58 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         FOOTPRINT(Cofagrigus)
         .levelUpLearnset = sCofagrigusLevelUpLearnset,
         .teachableLearnset = sCofagrigusTeachableLearnset,
+    },
+
+    [SPECIES_RUNERIGUS] =
+    {
+        .baseHP        = 58,
+        .baseAttack    = 95,
+        .baseDefense   = 145,
+        .baseSpeed     = 30,
+        .baseSpAttack  = 50,
+        .baseSpDefense = 105,
+        .types = MON_TYPES(TYPE_GROUND, TYPE_GHOST),
+        .catchRate = 90,
+        .expYield = 169,
+        .evYield_Defense = 2,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 25,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL, EGG_GROUP_AMORPHOUS),
+        .abilities = { ABILITY_WANDERING_SPIRIT, ABILITY_NONE, ABILITY_NONE },
+        .bodyColor = BODY_COLOR_GRAY,
+        .speciesName = _("Runerigus"),
+        .cryId = CRY_RUNERIGUS,
+        .natDexNum = NATIONAL_DEX_RUNERIGUS,
+        .categoryName = _("Grudge"),
+        .height = 16,
+        .weight = 666,
+        .description = COMPOUND_STRING(
+            "A powerful curse was woven into an ancient\n"
+            "painting. After absorbing the spirit of\n"
+            "a Yamask, the painting began to move."),
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+        .frontPic = gMonFrontPic_Runerigus,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 2,
+        .frontAnimFrames = sAnims_Runerigus,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .enemyMonElevation = 5,
+        .backPic = gMonBackPic_Runerigus,
+        .backPicSize = MON_COORDS_SIZE(64, 48),
+        .backPicYOffset = 9,
+        //.backAnimId = BACK_ANIM_NONE,
+        .palette = gMonPalette_Runerigus,
+        .shinyPalette = gMonShinyPalette_Runerigus,
+        .iconSprite = gMonIcon_Runerigus,
+        .iconPalIndex = 2,
+        FOOTPRINT(Runerigus)
+        .levelUpLearnset = sRunerigusLevelUpLearnset,
+        .teachableLearnset = sRunerigusTeachableLearnset,
     },
 
 #if P_GALARIAN_FORMS
