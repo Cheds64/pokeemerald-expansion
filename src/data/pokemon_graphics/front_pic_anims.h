@@ -8422,25 +8422,8 @@ static const union AnimCmd sAnim_Goomy_1[] =
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_END,
 };
-
-static const union AnimCmd sAnim_Sliggoo_1[] =
-{
-    ANIMCMD_FRAME(0, 20),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_END,
-};
-
-static const union AnimCmd sAnim_Goodra_1[] =
-{
-    ANIMCMD_FRAME(0, 18),
-    ANIMCMD_FRAME(1, 18),
-    ANIMCMD_FRAME(0, 18),
-    ANIMCMD_FRAME(1, 18),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_END,
-};
-
+PLACEHOLDER_ANIM_SINGLE_FRAME(Sliggoo);
+PLACEHOLDER_ANIM_SINGLE_FRAME(Goodra);
 #if P_HISUIAN_FORMS
 PLACEHOLDER_ANIM_SINGLE_FRAME(SliggooHisuian);
 PLACEHOLDER_ANIM_SINGLE_FRAME(GoodraHisuian);
