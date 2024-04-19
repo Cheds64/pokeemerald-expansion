@@ -7407,7 +7407,7 @@ const u32 gMonFrontPic_BasculegionFemale[] = INCBIN_U32("graphics/pokemon/bascul
 #endif //P_FAMILY_SANDILE
 
 #if P_FAMILY_DARUMAKA
-    const u32 gMonFrontPic_Darumaka[] = INCBIN_U32("graphics/pokemon/darumaka/anim_front.4bpp.lz");
+    const u32 gMonFrontPic_Darumaka[] = INCBIN_U32("graphics/pokemon/darumaka/front.4bpp.lz");
     const u32 gMonPalette_Darumaka[] = INCBIN_U32("graphics/pokemon/darumaka/normal.gbapal.lz");
     const u32 gMonBackPic_Darumaka[] = INCBIN_U32("graphics/pokemon/darumaka/back.4bpp.lz");
     const u32 gMonShinyPalette_Darumaka[] = INCBIN_U32("graphics/pokemon/darumaka/shiny.gbapal.lz");
@@ -7416,7 +7416,7 @@ const u32 gMonFrontPic_BasculegionFemale[] = INCBIN_U32("graphics/pokemon/bascul
     const u8 gMonFootprint_Darumaka[] = INCBIN_U8("graphics/pokemon/darumaka/footprint.1bpp");
 #endif //P_FOOTPRINTS
 
-    const u32 gMonFrontPic_DarmanitanStandardMode[] = INCBIN_U32("graphics/pokemon/darmanitan/anim_front.4bpp.lz");
+    const u32 gMonFrontPic_DarmanitanStandardMode[] = INCBIN_U32("graphics/pokemon/darmanitan/front.4bpp.lz");
     const u32 gMonPalette_DarmanitanStandardMode[] = INCBIN_U32("graphics/pokemon/darmanitan/normal.gbapal.lz");
     const u32 gMonBackPic_DarmanitanStandardMode[] = INCBIN_U32("graphics/pokemon/darmanitan/back.4bpp.lz");
     const u32 gMonShinyPalette_DarmanitanStandardMode[] = INCBIN_U32("graphics/pokemon/darmanitan/shiny.gbapal.lz");
@@ -7425,7 +7425,7 @@ const u32 gMonFrontPic_BasculegionFemale[] = INCBIN_U32("graphics/pokemon/bascul
     const u8 gMonFootprint_Darmanitan[] = INCBIN_U8("graphics/pokemon/darmanitan/footprint.1bpp");
 #endif //P_FOOTPRINTS
 
-    const u32 gMonFrontPic_DarmanitanZenMode[] = INCBIN_U32("graphics/pokemon/darmanitan/zen_mode/anim_front.4bpp.lz");
+    const u32 gMonFrontPic_DarmanitanZenMode[] = INCBIN_U32("graphics/pokemon/darmanitan/zen_mode/front.4bpp.lz");
     const u32 gMonPalette_DarmanitanZenMode[] = INCBIN_U32("graphics/pokemon/darmanitan/zen_mode/normal.gbapal.lz");
     const u32 gMonBackPic_DarmanitanZenMode[] = INCBIN_U32("graphics/pokemon/darmanitan/zen_mode/back.4bpp.lz");
     const u32 gMonShinyPalette_DarmanitanZenMode[] = INCBIN_U32("graphics/pokemon/darmanitan/zen_mode/shiny.gbapal.lz");

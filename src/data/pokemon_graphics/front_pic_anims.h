@@ -6683,30 +6683,9 @@ static const union AnimCmd sAnim_Krookodile_1[] =
 #endif //P_FAMILY_SANDILE
 
 #if P_FAMILY_DARUMAKA
-static const union AnimCmd sAnim_Darumaka_1[] =
-{
-    ANIMCMD_FRAME(1, 50),
-    ANIMCMD_FRAME(1, 50),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_END,
-};
-
-static const union AnimCmd sAnim_DarmanitanStandardMode_1[] =
-{
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 20),
-    ANIMCMD_END,
-};
-
-static const union AnimCmd sAnim_DarmanitanZenMode_1[] =
-{
-    ANIMCMD_FRAME(1, 15),
-    ANIMCMD_FRAME(0, 20),
-    ANIMCMD_END,
-};
-
+PLACEHOLDER_ANIM_SINGLE_FRAME(Darumaka);
+PLACEHOLDER_ANIM_SINGLE_FRAME(DarmanitanStandardMode);
+PLACEHOLDER_ANIM_SINGLE_FRAME(DarmanitanZenMode);
 #if P_GALARIAN_FORMS
 PLACEHOLDER_ANIM_SINGLE_FRAME(DarumakaGalarian);
 PLACEHOLDER_ANIM_SINGLE_FRAME(DarmanitanGalarianStandardMode);

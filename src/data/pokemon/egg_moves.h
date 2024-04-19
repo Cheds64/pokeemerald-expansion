@@ -3808,17 +3808,14 @@ const u16 gEggMoves[] = {
 
 #if P_FAMILY_DARUMAKA
     egg_moves(DARUMAKA,
-        MOVE_SLEEP_TALK,
         MOVE_FOCUS_PUNCH,
-        MOVE_FOCUS_ENERGY,
-        MOVE_ENDURE,
         MOVE_HAMMER_ARM,
         MOVE_TAKE_DOWN,
         MOVE_FLAME_WHEEL,
-        MOVE_ENCORE,
         MOVE_YAWN,
-        MOVE_SNATCH,
-        MOVE_EXTRASENSORY),
+        MOVE_FREEZE_DRY,
+        MOVE_INCINERATE,
+        MOVE_POWER_UP_PUNCH),
 #if P_GALARIAN_FORMS
     egg_moves(DARUMAKA_GALARIAN,
         MOVE_FOCUS_PUNCH,
