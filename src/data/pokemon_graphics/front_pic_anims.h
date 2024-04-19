@@ -6649,7 +6649,7 @@ static const union AnimCmd sAnim_Basculin_1[] =
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_END,
 };
-
+PLACEHOLDER_ANIM_SINGLE_FRAME(Basculegion);
 #if P_HISUIAN_FORMS
 PLACEHOLDER_ANIM_SINGLE_FRAME(Basculegion);
 #endif //P_HISUIAN_FORMS
@@ -11492,6 +11492,7 @@ SINGLE_ANIMATION(LilligantHisuian);
 #endif //P_FAMILY_PETILIL
 #if P_FAMILY_BASCULIN
 SINGLE_ANIMATION(Basculin);
+SINGLE_ANIMATION(Basculegion);
 #if P_HISUIAN_FORMS
 SINGLE_ANIMATION(Basculegion);
 #endif //P_HISUIAN_FORMS
