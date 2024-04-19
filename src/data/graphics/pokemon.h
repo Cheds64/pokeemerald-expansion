@@ -6820,7 +6820,7 @@ const u32 gMonFrontPic_Cursola[] = INCBIN_U32("graphics/pokemon/cursola/front.4b
     const u8 gMonFootprint_Dewott[] = INCBIN_U8("graphics/pokemon/dewott/footprint.1bpp");
 #endif //P_FOOTPRINTS
 
-    const u32 gMonFrontPic_Samurott[] = INCBIN_U32("graphics/pokemon/samurott/anim_front.4bpp.lz");
+    const u32 gMonFrontPic_Samurott[] = INCBIN_U32("graphics/pokemon/samurott/front.4bpp.lz");
     const u32 gMonPalette_Samurott[] = INCBIN_U32("graphics/pokemon/samurott/normal.gbapal.lz");
     const u32 gMonBackPic_Samurott[] = INCBIN_U32("graphics/pokemon/samurott/back.4bpp.lz");
     const u32 gMonShinyPalette_Samurott[] = INCBIN_U32("graphics/pokemon/samurott/shiny.gbapal.lz");

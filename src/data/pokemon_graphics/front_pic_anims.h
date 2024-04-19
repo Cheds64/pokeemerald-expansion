@@ -6140,14 +6140,7 @@ static const union AnimCmd sAnim_Dewott_1[] =
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_END,
 };
-
-static const union AnimCmd sAnim_Samurott_1[] =
-{
-    ANIMCMD_FRAME(1, 40),
-    ANIMCMD_FRAME(0, 5),
-    ANIMCMD_END,
-};
-
+PLACEHOLDER_ANIM_SINGLE_FRAME(Samurott);
 #if P_HISUIAN_FORMS
 PLACEHOLDER_ANIM_SINGLE_FRAME(SamurottHisuian);
 #endif //P_HISUIAN_FORMS

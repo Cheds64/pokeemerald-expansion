@@ -489,34 +489,34 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
 
     [SPECIES_SAMUROTT] =
     {
-        .baseHP        = 95,
-        .baseAttack    = 100,
-        .baseDefense   = 85,
-        .baseSpeed     = 70,
-        .baseSpAttack  = 108,
-        .baseSpDefense = 70,
-        .types = MON_TYPES(TYPE_WATER),
+        .baseHP        = 90,
+        .baseAttack    = 108,
+        .baseDefense   = 80,
+        .baseSpeed     = 85,
+        .baseSpAttack  = 100,
+        .baseSpDefense = 65,
+        .types = MON_TYPES(TYPE_WATER, TYPE_DARK),
         .catchRate = 45,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_8) ? 264 : 238,
-        .evYield_SpAttack = 3,
+        .evYield_Attack = 3,
         .genderRatio = PERCENT_FEMALE(12.5),
         .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
-        .abilities = { ABILITY_TORRENT, ABILITY_NONE, ABILITY_SHELL_ARMOR },
+        .abilities = { ABILITY_TORRENT, ABILITY_NONE, ABILITY_SHARPNESS },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Samurott"),
         .cryId = CRY_SAMUROTT,
         .natDexNum = NATIONAL_DEX_SAMUROTT,
         .categoryName = _("Formidable"),
         .height = 15,
-        .weight = 946,
+        .weight = 582,
         .description = COMPOUND_STRING(
-            "One swing of the seamitars attached\n"
-            "to its armor can fell an opponent.\n"
-            "A simple glare from one of them is\n"
-            "enough to intimidate most enemies."),
+            "Hard of heart and deft of blade,\n"
+            "this rare form of Samurott is a\n"
+            "product of the Pokémon's evolution in the\n"
+            "region of Hisui."),
         .pokemonScale = 268,
         .pokemonOffset = 2,
         .trainerScale = 271,
@@ -525,15 +525,15 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
         .frontAnimFrames = sAnims_Samurott,
-        .frontAnimId = ANIM_V_SHAKE,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE
         .backPic = gMonBackPic_Samurott,
-        .backPicSize = MON_COORDS_SIZE(64, 56),
+        .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 8,
-        .backAnimId = BACK_ANIM_SHAKE_GLOW_BLUE,
+        //.backAnimId = BACK_ANIM_NONE,
         .palette = gMonPalette_Samurott,
         .shinyPalette = gMonShinyPalette_Samurott,
         .iconSprite = gMonIcon_Samurott,
-        .iconPalIndex = 2,
+        .iconPalIndex = 0,
         FOOTPRINT(Samurott)
         .levelUpLearnset = sSamurottLevelUpLearnset,
         .teachableLearnset = sSamurottTeachableLearnset,
