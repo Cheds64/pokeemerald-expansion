@@ -8500,16 +8500,7 @@ static const union AnimCmd sAnim_Bergmite_1[] =
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_END,
 };
-
-static const union AnimCmd sAnim_Avalugg_1[] =
-{
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 20),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_END,
-};
-
+PLACEHOLDER_ANIM_SINGLE_FRAME(Avalugg);
 #if P_HISUIAN_FORMS
 PLACEHOLDER_ANIM_SINGLE_FRAME(AvaluggHisuian);
 #endif //P_HISUIAN_FORMS

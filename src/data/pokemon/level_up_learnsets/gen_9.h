@@ -16638,7 +16638,7 @@ static const struct LevelUpMove sBergmiteLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sAvaluggLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_BODY_SLAM),
+    LEVEL_UP_MOVE( 0, MOVE_ROCK_SLIDE),
     LEVEL_UP_MOVE( 1, MOVE_POWDER_SNOW),
     LEVEL_UP_MOVE( 1, MOVE_RAPID_SPIN),
     LEVEL_UP_MOVE( 1, MOVE_WIDE_GUARD),
@@ -16656,7 +16656,8 @@ static const struct LevelUpMove sAvaluggLevelUpLearnset[] = {
     LEVEL_UP_MOVE(36, MOVE_TAKE_DOWN),
     LEVEL_UP_MOVE(41, MOVE_BLIZZARD),
     LEVEL_UP_MOVE(46, MOVE_DOUBLE_EDGE),
-    LEVEL_UP_MOVE(51, MOVE_ICICLE_CRASH),
+    LEVEL_UP_MOVE(51, MOVE_STONE_EDGE),
+    LEVEL_UP_MOVE(61, MOVE_MOUNTAIN_GALE),
     LEVEL_UP_END
 };
 

@@ -28629,25 +28629,18 @@ static const u16 sBergmiteTeachableLearnset[] = {
 };
 
 static const u16 sAvaluggTeachableLearnset[] = {
-    MOVE_ATTRACT,
     MOVE_BLIZZARD,
-    MOVE_DOUBLE_TEAM,
+    MOVE_DIG,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
-    MOVE_FLASH,
-    MOVE_HAIL,
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
-    MOVE_ROAR,
     MOVE_ROCK_SMASH,
     MOVE_ROCK_TOMB,
-    MOVE_SAFEGUARD,
-    MOVE_STRENGTH,
-    MOVE_SURF,
-    MOVE_TOXIC,
+    MOVE_SANDSTORM,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
     MOVE_DOUBLE_EDGE,
@@ -28655,8 +28648,6 @@ static const u16 sAvaluggTeachableLearnset[] = {
     MOVE_ICY_WIND,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
-    MOVE_SNORE,
-    MOVE_SWAGGER,
     MOVE_UNAVAILABLE,
 };
 
