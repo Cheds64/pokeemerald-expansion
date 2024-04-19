@@ -5210,13 +5210,13 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
 #if P_FAMILY_ZORUA
     [SPECIES_ZORUA] =
     {
-        .baseHP        = 40,
-        .baseAttack    = 65,
+        .baseHP        = 35,
+        .baseAttack    = 60,
         .baseDefense   = 40,
-        .baseSpeed     = 65,
-        .baseSpAttack  = 80,
+        .baseSpeed     = 70,
+        .baseSpAttack  = 85,
         .baseSpDefense = 40,
-        .types = MON_TYPES(TYPE_DARK),
+        .types = MON_TYPES(TYPE_NORMAL, TYPE_GHOST),
         .catchRate = 75,
         .expYield = 66,
         .evYield_SpAttack = 1,
@@ -5230,27 +5230,27 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .speciesName = _("Zorua"),
         .cryId = CRY_ZORUA,
         .natDexNum = NATIONAL_DEX_ZORUA,
-        .categoryName = _("Tricky Fox"),
+        .categoryName = _("Spiteful Fox"),
         .height = 7,
         .weight = 125,
         .description = COMPOUND_STRING(
-            "To protect themselves from danger, they\n"
-            "hide their true identities by transforming\n"
-            "into people and Pokémon. Apparently, it\n"
-            "often transforms into a silent child."),
+            "Derives power from resentment,\n"
+            "which rises as energy atop its head and\n"
+            "takes on the forms of foes. In this\n"
+            "way, Zorua vents lingering malice."),
         .pokemonScale = 365,
         .pokemonOffset = 12,
         .trainerScale = 256,
         .trainerOffset = 0,
         .frontPic = gMonFrontPic_Zorua,
-        .frontPicSize = MON_COORDS_SIZE(40, 48),
-        .frontPicYOffset = 11,
+        .frontPicSize = MON_COORDS_SIZE(48, 64),
+        .frontPicYOffset = 1,
         .frontAnimFrames = sAnims_Zorua,
-        .frontAnimId = ANIM_CIRCULAR_VIBRATE,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
         .backPic = gMonBackPic_Zorua,
-        .backPicSize = MON_COORDS_SIZE(64, 56),
-        .backPicYOffset = 7,
-        .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
+        .backPicSize = MON_COORDS_SIZE(56, 64),
+        .backPicYOffset = 1,
+        //.backAnimId = BACK_ANIM_NONE,
         .palette = gMonPalette_Zorua,
         .shinyPalette = gMonShinyPalette_Zorua,
         .iconSprite = gMonIcon_Zorua,
@@ -5264,13 +5264,13 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
 
     [SPECIES_ZOROARK] =
     {
-        .baseHP        = 60,
-        .baseAttack    = 105,
+        .baseHP        = 55,
+        .baseAttack    = 100,
         .baseDefense   = 60,
-        .baseSpeed     = 105,
-        .baseSpAttack  = 120,
+        .baseSpeed     = 110,
+        .baseSpAttack  = 125,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_DARK),
+        .types = MON_TYPES(TYPE_NORMAL, TYPE_GHOST),
         .catchRate = 45,
         .expYield = 179,
         .evYield_SpAttack = 2,
@@ -5284,27 +5284,27 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .speciesName = _("Zoroark"),
         .cryId = CRY_ZOROARK,
         .natDexNum = NATIONAL_DEX_ZOROARK,
-        .categoryName = _("Illusion Fox"),
+        .categoryName = _("Baneful Fox"),
         .height = 16,
-        .weight = 811,
+        .weight = 730,
         .description = COMPOUND_STRING(
-            "Bonds between these Pokémon are very\n"
-            "strong. It protects the safety of its\n"
-            "pack by tricking its opponents. They\n"
-            "defend their lair with illusory scenery."),
+            "Heedless of its own safety,\n"
+            "Zoroark attacks its nemeses with a bitter\n"
+            "energy so intense, it lacerates\n"
+            "Zoroark's own body."),
         .pokemonScale = 259,
         .pokemonOffset = 1,
         .trainerScale = 296,
         .trainerOffset = 1,
         .frontPic = gMonFrontPic_Zoroark,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 2,
+        .frontPicYOffset = 0,
         .frontAnimFrames = sAnims_Zoroark,
-        .frontAnimId = ANIM_FLICKER_INCREASING,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
         .backPic = gMonBackPic_Zoroark,
-        .backPicSize = MON_COORDS_SIZE(64, 56),
-        .backPicYOffset = 10,
-        .backAnimId = BACK_ANIM_JOLT_RIGHT,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 0,
+        //.backAnimId = BACK_ANIM_NONE,
         .palette = gMonPalette_Zoroark,
         .shinyPalette = gMonShinyPalette_Zoroark,
         .iconSprite = gMonIcon_Zoroark,

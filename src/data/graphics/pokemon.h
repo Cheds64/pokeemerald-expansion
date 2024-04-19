@@ -7628,7 +7628,7 @@ const u32 gMonFrontPic_BasculegionFemale[] = INCBIN_U32("graphics/pokemon/bascul
 #endif //P_FAMILY_TRUBBISH
 
 #if P_FAMILY_ZORUA
-    const u32 gMonFrontPic_Zorua[] = INCBIN_U32("graphics/pokemon/zorua/anim_front.4bpp.lz");
+    const u32 gMonFrontPic_Zorua[] = INCBIN_U32("graphics/pokemon/zorua/front.4bpp.lz");
     const u32 gMonPalette_Zorua[] = INCBIN_U32("graphics/pokemon/zorua/normal.gbapal.lz");
     const u32 gMonBackPic_Zorua[] = INCBIN_U32("graphics/pokemon/zorua/back.4bpp.lz");
     const u32 gMonShinyPalette_Zorua[] = INCBIN_U32("graphics/pokemon/zorua/shiny.gbapal.lz");
@@ -7637,7 +7637,7 @@ const u32 gMonFrontPic_BasculegionFemale[] = INCBIN_U32("graphics/pokemon/bascul
     const u8 gMonFootprint_Zorua[] = INCBIN_U8("graphics/pokemon/zorua/footprint.1bpp");
 #endif //P_FOOTPRINTS
 
-    const u32 gMonFrontPic_Zoroark[] = INCBIN_U32("graphics/pokemon/zoroark/anim_front.4bpp.lz");
+    const u32 gMonFrontPic_Zoroark[] = INCBIN_U32("graphics/pokemon/zoroark/front.4bpp.lz");
     const u32 gMonPalette_Zoroark[] = INCBIN_U32("graphics/pokemon/zoroark/normal.gbapal.lz");
     const u32 gMonBackPic_Zoroark[] = INCBIN_U32("graphics/pokemon/zoroark/back.4bpp.lz");
     const u32 gMonShinyPalette_Zoroark[] = INCBIN_U32("graphics/pokemon/zoroark/shiny.gbapal.lz");

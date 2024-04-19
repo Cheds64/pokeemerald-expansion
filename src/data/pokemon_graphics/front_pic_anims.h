@@ -6864,26 +6864,8 @@ PLACEHOLDER_ANIM_SINGLE_FRAME(GarbodorGigantamax);
 #endif //P_FAMILY_TRUBBISH
 
 #if P_FAMILY_ZORUA
-static const union AnimCmd sAnim_Zorua_1[] =
-{
-    ANIMCMD_FRAME(0, 15),
-    ANIMCMD_FRAME(1, 15),
-    ANIMCMD_FRAME(0, 15),
-    ANIMCMD_FRAME(1, 15),
-    ANIMCMD_FRAME(0, 15),
-    ANIMCMD_END,
-};
-
-static const union AnimCmd sAnim_Zoroark_1[] =
-{
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 18),
-    ANIMCMD_FRAME(0, 8),
-    ANIMCMD_FRAME(1, 8),
-    ANIMCMD_FRAME(0, 15),
-    ANIMCMD_END,
-};
-
+PLACEHOLDER_ANIM_SINGLE_FRAME(Zorua);
+PLACEHOLDER_ANIM_SINGLE_FRAME(Zoroark);
 #if P_HISUIAN_FORMS
 PLACEHOLDER_ANIM_SINGLE_FRAME(ZoruaHisuian);
 PLACEHOLDER_ANIM_SINGLE_FRAME(ZoroarkHisuian);
